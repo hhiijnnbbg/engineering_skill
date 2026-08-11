@@ -7,20 +7,24 @@
 ## Objective
 [明确的完成目标]
 
-## Files
+## 修改边界 (Modify Boundary)
 
-### Modify
+### 允许修改
 - [文件路径] — [修改内容]
 
-### Add
-- [文件路径] — [用途]
+### 禁止修改
+- [文件路径/层] — [原因]
+
+### 影响范围
+- 涉及文件：[列出]
+- 不涉及文件：[列出]
 
 ## Requirement
 [详细功能要求，逐条列出]
 
 ## Constraint
-- DO NOT: [禁止修改的层/文件/行为]
 - MUST: [必须遵守的规则]
+- DO NOT: [禁止行为，与修改边界呼应]
 
 ## Verification
 - [ ] dotnet build 通过
